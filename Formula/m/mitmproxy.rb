@@ -106,15 +106,13 @@ class Mitmproxy < Formula
   end
 
   resource "mitmproxy-macos" do
-    on_macos do
-      url "https://files.pythonhosted.org/packages/b8/17/b4fb6251e0d4686913302413f78a576fca9d597d20e4b412e9adee15874d/mitmproxy_macos-0.3.8.tar.gz"
-      sha256 "6f53dec17f59805e12f61448f9636a51849ed8cd5d7a2c001d959dde8ab2e42b"
-    end
+    url "https://files.pythonhosted.org/packages/7a/5e/58aa030425269b10138e8d404256434c5d2a514e57ad68095610f46c52c3/mitmproxy_macos-0.3.11.tar.gz?.patch"
+    sha256 "b521a0cd29ff85ec5ff26f5dee5fc0e221e0968c3904e3bce3cddcd930b0b5c7"
   end
 
   resource "mitmproxy-rs" do
-    url "https://files.pythonhosted.org/packages/9d/03/df833b9d8d18a47d81f8e1e3944f5601843b2e23e51c877b0b2f858c4824/mitmproxy_rs-0.3.8.tar.gz"
-    sha256 "06a906e2fbc8a8ac1434bf0b7f4f6401975495151d35ef290cd2bb1380a71eea"
+    url "https://files.pythonhosted.org/packages/06/30/085d634610961277faebe319ee76f145ea92ce6cbea2e5f5c6dba74e2005/mitmproxy_rs-0.3.11.tar.gz"
+    sha256 "5dddb1360dbfc659e13616ed62797ca6c7cfabdcc03674da75a2851c6044eecd"
   end
 
   resource "msgpack" do
